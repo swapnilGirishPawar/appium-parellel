@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+    <test name="Testing 1">
+        <parameter name="deviceName" value="onePLus"></parameter>
+        <parameter name="platformVersion" value="9"></parameter>
+        <parameter name="portNumber" value="5555"></parameter>
+        <classes>
+            <class name="TestSuite.testcheck"/>
+        </classes>
+    </test> <!-- Test -->
+
+    <test name="Testing 2">
+        <parameter name="deviceName" value="onePLus"></parameter>
+        <parameter name="platformVersion" value="9"></parameter>
+        <parameter name="portNumber" value="6666"></parameter>
+        <classes>
+            <class name="TestSuite.testcheck"/>
+        </classes>
+    </test> <!-- Test -->
+
+</suite> <!-- Suite -->
